@@ -13,7 +13,7 @@
 
 main {
   width: 100%;
-  height: 1000px;
+  height: auto;
 }
 
 .main-content {
@@ -23,8 +23,15 @@ main {
 
 .back {
   width: 300px;
-  height: 400px;
+  height: 350px;
   background-color: #EEEEEE;
+}
+
+.back:nth-child(1) {
+  margin-right: 30px;
+}
+
+.back:nth-child(2) {
   margin-right: 30px;
 }
 
@@ -32,15 +39,63 @@ main {
   width: 280px;
   height: 150px;
   background-image: url(/Users/se-ya/Desktop/chapter9_exercise/img/flow01.png);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-position: 50% 75%;
+}
+
+.step1 {
+  display: inline-block;
+  background-color: #ff9a4b;
+  margin: 0;
+}
+.step2 {
+  display: inline-block;
+  background-color: #ff9a4b;
+  margin: 0;
+}
+.step3 {
+  display: inline-block;
+  background-color: #ff9a4b;
+  margin: 0;
 }
 
 .image2 {
-  width: 300px;
+  width: 280px;
   height: 150px;
   background-image: url(/Users/se-ya/Desktop/chapter9_exercise/img/flow02.png);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-position: 50% 75%;
 }
 .image3 {
-  width: 300px;
+  width: 280px;
   height: 150px;
   background-image: url(/Users/se-ya/Desktop/chapter9_exercise/img/flow03.png);
+  background-size: cover;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-position: 50% 75%;
+}
+
+h3 {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+  margin-top: 50px;
 }
