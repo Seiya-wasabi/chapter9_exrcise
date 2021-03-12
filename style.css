@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  background-color: #ff9a4b;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+main {
+  width: 100%;
+  height: 1000px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  width: 300px;
+  height: 400px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+}
+
+.image1 {
+  width: 280px;
+  height: 150px;
+  background-image: url(/Users/se-ya/Desktop/chapter9_exercise/img/flow01.png);
+}
+
+.image2 {
+  width: 300px;
+  height: 150px;
+  background-image: url(/Users/se-ya/Desktop/chapter9_exercise/img/flow02.png);
+}
+.image3 {
+  width: 300px;
+  height: 150px;
+  background-image: url(/Users/se-ya/Desktop/chapter9_exercise/img/flow03.png);
+}
